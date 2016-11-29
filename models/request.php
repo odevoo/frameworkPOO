@@ -12,7 +12,7 @@ class Request
 
 	public function get($key)
 	{
-		return isset($this->_get[$key]) ? $this->_get[$key] : false;	
+		return isset($this->_get[$key]) ? $this->_get[$key] : false;
 	}
 
 	public function post($key)

@@ -2,7 +2,7 @@
 require_once 'models/Settings.php';
 require_once 'models/Request.php';
 
-class Ministream
+class  Ministream
 {
   private $_request;
   private $_action;
